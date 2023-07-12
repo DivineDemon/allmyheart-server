@@ -1,0 +1,36 @@
+{
+  "name": "allmyheart-server",
+  "version": "1.0.0",
+  "description": "Node.js Backend for All My Heart",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "null",
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DivineDemon/allmyheart-server.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Firebase",
+    "Notifications"
+  ],
+  "author": "Mushood Hanif",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DivineDemon/allmyheart-server/issues"
+  },
+  "homepage": "https://github.com/DivineDemon/allmyheart-server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
